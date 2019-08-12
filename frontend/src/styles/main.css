@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(10, 91, 0);
+  margin: 0;
+  color: white;
+}
+.input_text {
+  width: 100px;
+}
+
+@media only screen and (max-width: 300px) {
+  .input_text {
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+  }
+  .input_submit {
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+  }
+}
